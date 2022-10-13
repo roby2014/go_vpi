@@ -1,6 +1,9 @@
 # go_vpi
 
-This is a quick example on how to build & run [VPI](https://en.wikipedia.org/wiki/Verilog_Procedural_Interface) applications with Golang.
+This is a quick example on how to build & run [VPI](https://en.wikipedia.org/wiki/Verilog_Procedural_Interface) modules (with GHDL) using Golang programming language.
+
+## Info
+You can generate the `.vpi` module using `go build -buildmode c-shared -o app.vpi go_vpi.go` and then run the `app.vpi` however you like. In this repository I'm using `GHDL`.
 
 ## Requirements
 - [go](https://go.dev/)
